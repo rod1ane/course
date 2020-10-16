@@ -1,19 +1,12 @@
-let personalMoviesDb;
+let age = null;
 
-let numberOfFilms = prompt("How many films you watch?");
-let watchedFilms = prompt("One more watched films?");
-let raitWatcheFilm = prompt("Rait watched film?");
-
-
-personalMoviesDb = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
-personalMoviesDb.movies[watchedFilms] = raitWatcheFilm;
-
-
-console.log(personalMoviesDb);
+switch(age) {
+    case 40:
+        console.log("True");
+        break;
+    case 25:
+        console.log("false");
+        break;
+    default:
+        console.log("Пох!");
+}
